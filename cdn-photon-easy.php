@@ -4,7 +4,7 @@
  * Plugin Name:       CDN Photon Easy
  * Plugin URI:        https://github.com/moskoweb/CDN-Photon-Easy
  * Description:       Activate Photon's CDN system automatically on your site.
- * Version:           0.0.1
+ * Version:           0.1.0
  * Author:            Alan Mosko
  * Author URI:        https://alanmosko.com.br/
  * Text Domain:       cdn-photon-easy
