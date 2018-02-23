@@ -33,8 +33,8 @@ if ( ! function_exists('cdn_photon_easy') ) {
 }
 
 function cdn_photon_easy_settings_link( $links ) {
-    array_push( $links, '<a href="https://developer.wordpress.com/docs/photon/api/">' . __( 'Documentation' ) . '</a>' );
-  	return $links;
+	array_push( $links, '<a target="_blank" href="https://developer.wordpress.com/docs/photon/api/">' . __( 'Documentation' ) . '</a>' );
+	return $links;
 }
 add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'cdn_photon_easy_settings_link' );
 
